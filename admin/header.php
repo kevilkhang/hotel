@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Quản lý-Khách sạn</title>
+    <title>Quản trị-Khách sạn</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -18,7 +18,7 @@
         <div class="sidebar-header d-flex align-items-center px-3 py-4">
             <div class="ms-2">
                 <h5 class="fs-6 mb-0">
-                    <a class="text-decoration-none" href="index.php">Hóa</a>
+                    <a class="text-decoration-none" href="/hotel/index.php">< Trở về Trang chủ</a>
                 </h5>
             </div>
         </div>
@@ -46,10 +46,10 @@
                 </ul>
             </li> -->
             <li class="has-dropdown">
-                <i class="uil-bright"></i><span>Quản lý loại phong</span>
+                <i class="uil-bright"></i><span>Quản lý Loại phòng</span>
                 <ul class="sidebar-dropdown list-unstyled">
                     <li><a href="index.php?act=danhs_loaiphong">Danh sách Loại phòng</a></li>
-                    <li><a href="index.php?act=themloaiphong">Thêm loại phòng</a></li>
+                    <li><a href="index.php?act=themloaiphong">Thêm Loại phòng</a></li>
                 </ul>
             </li>
             <li class="has-dropdown">
@@ -69,29 +69,29 @@
             <li class="has-dropdown">
                 <i class="uil-th"></i> <span>Phòng</span>
                 <ul class="sidebar-dropdown list-unstyled">
-                    <li><a href="index.php?act=danhsachphong">Danh sách phòng</a></li>
-                    <li><a href="index.php?act=phong">Thêm phòng</a></li>
+                    <li><a href="index.php?act=danhsachphong">Danh sách Phòng</a></li>
+                    <li><a href="index.php?act=phong">Thêm Phòng</a></li>
                 </ul>
             </li>
             <li class="has-dropdown">
                 <i class="uil-user-plus fa-fw"></i><span>Người dùng</span>
                 <ul class="sidebar-dropdown list-unstyled">
-                    <li><a href="index.php?act=danhsachkh">Danh sách người dùng</a></li>
-                    <li><a href="index.php?act=them_taikhoan">Thêm người dùng</a></li>
+                    <li><a href="index.php?act=danhsachkh">Danh sách Người dùng</a></li>
+                    <li><a href="index.php?act=them_taikhoan">Thêm Người dùng</a></li>
                 </ul>
             </li>
             <li class="has-dropdown">
-                <i class="uil-envelope-download fa-fw"></i><span>Tin Tức</span>
+                <i class="uil-envelope-download fa-fw"></i><span>Tin tức</span>
                 <ul class="sidebar-dropdown list-unstyled">
-                    <li><a href="index.php?act=danhs_tintuc">Danh sách tin tức</a></li>
+                    <li><a href="index.php?act=danhs_tintuc">Danh sách Tin tức</a></li>
                     <li><a href="index.php?act=them_tintuc">Thêm Tin tức</a></li>
                 </ul>
             </li>
             <li class="">
-                <i class=" uil-comment-alt-heart"></i> <a href="index.php?act=binhluan"> Bình luận</a>
+                <i class=" uil-comment-alt-heart"></i> <a href="index.php?act=binhluan">Bình luận</a>
             </li>
             <li class="">
-                <i class="uil-file-info-alt"></i> <a href="index.php?act=danhgia"> Đánh giá</a>
+                <i class="uil-file-info-alt"></i> <a href="index.php?act=danhgia">Đánh giá</a>
             </li>
             <li class="">
                 <i class="uil-chart-growth-alt"></i><a href="#">Thống kê</a>
@@ -106,7 +106,7 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggle-navbar" aria-controls="toggle-navbar" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="uil-bars text-white"></i>
                     </button>
-                    <a class="navbar-brand" href="#">QUẢN TRỊ<span class="main-color">-KHÁCH SẠN</span></a>
+                    <a class="navbar-brand" href="#">QUẢN TRỊ<span class="main-color"> KHÁCH SẠN</span></a>
                 </div>
                 <div class="collapse navbar-collapse" id="toggle-navbar">
                     <ul class="navbar-nav ms-auto">

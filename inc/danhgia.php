@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Hotel Booking Website</title>
+    <title>Hotel Booking</title>
     <?php require('inc/links.php'); ?>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="css/common.css">

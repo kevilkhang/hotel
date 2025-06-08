@@ -1,34 +1,86 @@
-:root{
-	--teal: #2ec1ac;
-	--teal_hover:#279e8c;
+:root {
+	--primary: #2c3e50;
+	--secondary: #3498db;
+	--light: #ecf0f1;
+	--dark: #2c3e50;
 }
-*{
-		font-family: 'Poppins', sans-serif;
-	}
-	.h-font{
-		font-family: 'Merienda' cursive;
-	}
 
-	input::-webkit-outer-spin-button,
-	input::-webkit-inner-spin-button {
-		-webkit-appearance: none;
-		margin: 0;
-	}
+* {
+	font-family: 'Poppins', sans-serif;
+}
 
-	input[type=number] {
-		-moz-appearance: textarea;
-	}
-	.custom-bg{
-		background-color: var(--teal);
-		border: 1px solid var(--teal);
-	}
-	.custom-bg:hover{
-		background-color: var(--teal-hover);
-		border-color: var(--teal-hover);
-	}
+.h-font {
+	font-family: 'Merienda', cursive;
+}
 
-	.h-line{
-		width: 150px;
-		margin: 0 auto;
-		height: 1.7px;
-	}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+/* ... other existing styles ... */
+
+.btn-custom {
+  background-color: var(--secondary); /* #3498db */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #2874a6; /* Darker shade of #3498db */
+}
+
+.custom-bg {
+	background-color: var(--primary); /* #2c3e50 */
+	border-color: var(--primary); /* #2c3e50 */
+	color: #fff;
+}
+
+.custom-bg:hover {
+	background-color: #233240; /* Darker shade of #2c3e50 */
+	border-color: #233240; /* Darker shade of #2c3e50 */
+}
+
+.btn-primary {
+	background-color: var(--secondary); /* #3498db */
+	border-color: var(--secondary); /* #3498db */
+}
+
+.btn-primary:hover {
+	background-color: #2874a6; /* Darker shade of #3498db */
+	border-color: #2874a6; /* Darker shade of #3498db */
+}
+
+.card {
+	border: none;
+	transition: transform 0.2s;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+	padding: 0.5em 1em;
+}
+
+h2 {
+	color: var(--dark);
+}
+
+.text-muted {
+	color: #7f8c8d !important;
+}
+
+.section-padding {
+	padding: 60px 0;
+}
